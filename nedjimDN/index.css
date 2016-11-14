@@ -1,0 +1,50 @@
+/*     DANIMON NGABA Nedjim  */
+
+
+/*     Simplon - Promo 6     */
+
+
+/*-------------------THEME-----------------*/
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background: #FFCA28
+}
+
+
+/*---------------POSITIONNEMENT-------------*/
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row {
+    flex-direction: row;
+}
+
+@media screen and (max-width: 500px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+
+/*-------------DIMENSIONS----------------*/
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 2rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem #212121;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.background {
+    background: #1A237E;
+    /* transition: background-color 0.3s;*/
+}
