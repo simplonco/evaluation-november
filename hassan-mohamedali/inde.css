@@ -1,0 +1,28 @@
+#tout{
+	display: flex; 
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+
+
+.premier{
+
+	background-color: blue;
+	border:solid black 2px;
+	width: 300px;
+	height: 300px;
+}
+
+
+
+@media screen and (max-width: 500px){
+	#tout {
+	flex-direction: column;
+	}
+
+	.premier{
+		margin:20px;
+	}
+	
+}
