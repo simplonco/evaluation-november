@@ -1,0 +1,28 @@
+#grid{
+	background-color: green;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+
+
+.element{
+	width: 200px;
+	height: 150px;
+	background-color: blue;
+	border:2px solid black;
+	border-radius: 15px 50px;
+}
+	
+
+
+@media screen and (max-width: 500px) {
+ #grid {
+    flex-direction: column;
+ }
+.element{ 
+	margin: 10px;
+ }
+}
