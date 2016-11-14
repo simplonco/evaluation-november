@@ -1,0 +1,27 @@
+
+.element{
+	background-color:blue; 
+	width:350px;
+	height:350px;
+	margin:10px;
+}
+
+#conteneur{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	width:100%;
+	height:100%;
+}
+
+.red{
+	red 
+	background-color: red;
+}
+
+@media screen and (max-width: 500px){
+  .wrapper{	
+
+#conteneur{
+	flex-direction:colum;
+}
