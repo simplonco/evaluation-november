@@ -1,0 +1,16 @@
+body{
+
+	background-color: #0099cc;
+}
+
+#contain{
+	display: flex;
+	justify-content: space-between;
+}
+.rs4, .rs6, .rs7 {
+	color:yellow;
+	height:200px;
+	width:30%;
+	border:2px solid black;
+	background-color: yellow;
+}
