@@ -1,0 +1,24 @@
+
+#container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.b1{
+	width: 350px;
+	height: 500px;
+	background: blue;
+	border: 1px solid;
+}
+
+
+@media screen and (max-width: 500px){
+	#container{
+		flex-direction:column;
+
+	}
+	.b1{
+		margin:20px;
+}
+
+	} 
