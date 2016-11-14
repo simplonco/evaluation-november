@@ -1,0 +1,21 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.element {
+	height: 250px;
+	width: 250px;
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 500px) {
+	.container {
+		flex-direction: column;
+		height: 1000px;
+	}
+}
