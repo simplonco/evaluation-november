@@ -1,0 +1,30 @@
+.flex{
+display: flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content: space-between;
+
+}
+
+
+#un{
+background: blue;
+width: 200px;
+height: 200px;
+
+
+}
+
+#deux{
+background: blue;
+width: 200px;
+height: 200px;
+
+}
+
+#trois{
+background: blue;
+width: 200px;
+height: 200px;
+
+}
