@@ -1,0 +1,17 @@
+body {
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+#Bloc{
+  height: 250px;
+  width: 250px;
+  background-color: blue;
+}
+@media (max-width: 500px){
+  .container {
+    flex-direction: column;
+  }
+}

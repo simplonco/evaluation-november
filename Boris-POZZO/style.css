@@ -1,0 +1,39 @@
+/* Containers */
+.container{
+	display: flex;
+	justify-content: space-around;
+	height: 400px;
+	width: 100%;
+}
+
+/* DIV */
+
+#blue{
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+	transition-duration: 2s
+}
+
+#blue-1{
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+	transition-duration: 2s
+}
+
+#blue-2{
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+	transition-duration: 2s
+}
+
+/* mEDIA SCREEN */
+
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+
+}
