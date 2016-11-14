@@ -1,0 +1,38 @@
+.colume {
+	display: flex;
+	justify-content: space-between;
+}
+#red{
+	border: 2px solid black;
+	background-color: blue;
+	height: 300px;
+	width: 22%;
+}
+#red2{
+	border: 2px solid black;
+	background-color: blue;
+	height: 300px;
+	width: 22%;
+}
+#red1{
+	border: 2px solid black;
+	background-color: blue;
+	height: 300px;
+	width: 22%;
+}
+
+@media screen and (max-width: 500px) {
+	.colume {
+		display: flex;
+		flex-direction: column;
+	}
+}
+#red.rouge {
+	background-color:red;
+}
+#red1.rouge {
+	background-color:red;
+}
+#red2.rouge {
+	background-color:red;
+}
