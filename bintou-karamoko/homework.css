@@ -1,0 +1,27 @@
+
+body {
+	background-color: pink;
+}
+
+#container{
+
+	display:flex;
+	justify-content: space-between;
+	width:100%;
+
+	/* border: 1px solid black; */
+}
+
+.block {
+	border: 2px solid violet; 
+	background-color: blue;
+	width: 200px;
+	height : 200px;
+	border-radius: 10px; 
+}
+
+}
+@media screen and (max-width: 500px) {
+	#container {	
+		flex-direction: column;
+	}
