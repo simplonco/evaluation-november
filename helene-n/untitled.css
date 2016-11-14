@@ -1,0 +1,32 @@
+#element{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	
+}
+
+.premier{
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+	border: 2px black solid;
+}
+.deuxieme{
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+	border: 2px black solid;
+}
+.troisieme{
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+	border: 2px black solid;
+}
+@media screen and (max-width: 500px){
+	
+ #element{	
+ 	display:flex;
+	flex-direction:column;
+	}
+}
